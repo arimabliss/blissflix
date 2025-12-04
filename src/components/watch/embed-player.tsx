@@ -100,8 +100,8 @@ function EmbedPlayer(props: EmbedPlayerProps) {
   return (
     <div
       style={{
-        width: '300%',
-        height: '300%',
+        width: '100%',
+        height: '100%',
         position: 'absolute',
         backgroundColor: '#000',
       }}>
@@ -116,8 +116,8 @@ function EmbedPlayer(props: EmbedPlayerProps) {
             fill="#fff"
             strokeWidth="0"
             viewBox="0 0 16 16"
-            height="16px"
-            width="16px"
+            height="20px"
+            width="20px"
             xmlns="http://www.w3.org/2000/svg"
             onClick={() => router.back()}>
             <path
@@ -132,8 +132,8 @@ function EmbedPlayer(props: EmbedPlayerProps) {
         <Loading />
       </div>
       <iframe
-        width="300%"
-        height="300%"
+        width="100%"
+        height="100%"
         allowFullScreen
         ref={iframeRef}
         style={{ opacity: 0 }}
