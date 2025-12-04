@@ -100,8 +100,8 @@ function EmbedPlayer(props: EmbedPlayerProps) {
   return (
     <div
       style={{
-        width: '100%',
-        height: '100%',
+        width: '300%',
+        height: '300%',
         position: 'absolute',
         backgroundColor: '#000',
       }}>
@@ -132,8 +132,8 @@ function EmbedPlayer(props: EmbedPlayerProps) {
         <Loading />
       </div>
       <iframe
-        width="100%"
-        height="100%"
+        width="300%"
+        height="300%"
         allowFullScreen
         ref={iframeRef}
         style={{ opacity: 0 }}
