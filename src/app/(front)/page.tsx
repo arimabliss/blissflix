@@ -20,7 +20,7 @@ export default function Index() {
             variant="secondary"
           >
             <Icons.twitter className="mr-2 h-3.5 w-3.5" />
-            Follow along on Twitter
+            music website
           </Badge>
           <span className="sr-only">Twitter</span>
         </Link>
