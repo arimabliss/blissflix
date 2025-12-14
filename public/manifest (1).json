@@ -1,0 +1,13 @@
+{
+  "background_color": "#000000",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "Bliflix",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "Blix",
+  "start_url": "/",
+  "theme_color": "rgb(0, 0, 0)",
+  "id": "Bliss",
+  "description": "Movie_all"
+}
